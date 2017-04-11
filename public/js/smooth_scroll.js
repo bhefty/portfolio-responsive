@@ -1,4 +1,4 @@
-$('body').scrollspy({target: "#navigation", offset: 50})
+$('body').scrollspy({target: "#navigation", offset: 0})
 
 $('#navigation a, #cover a').on('click', function(event) {
     if (this.hash !== '') {
