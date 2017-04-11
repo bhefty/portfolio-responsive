@@ -11,11 +11,14 @@ img {
   margin-bottom: 0;
 }
 
-#navigation.affix {
+.affix {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
+  + section {
+    padding-top: 50px;
+  }
 }
 
 #project-pagination {
