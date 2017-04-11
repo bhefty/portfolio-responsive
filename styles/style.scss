@@ -126,7 +126,8 @@ img {
 }
 
 #project-1 {
-  background-image: url('../images/computer.jpg');
+  background-image: url('../images/macbook-project-voting.png');
+  background-size: cover;
 }
 
 #project-2 {
@@ -142,6 +143,7 @@ img {
   a {
     text-decoration: none;
     &:hover, &:focus {
+      color: white;
       text-decoration: none;
     }
   }
@@ -253,6 +255,15 @@ img {
 
     .card-meta {
       max-height: 1em;
+    }
+  }
+}
+
+#contact {
+  ul {
+    text-align: center;
+    li {
+      margin: 10px;
     }
   }
 }

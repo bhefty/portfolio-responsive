@@ -99,7 +99,8 @@ img {
     background-color: #f0f0f0; }
 
 #project-1 {
-  background-image: url("../images/computer.jpg"); }
+  background-image: url("../images/macbook-project-voting.png");
+  background-size: cover; }
 
 #project-2 {
   background-image: url("../images/programming.jpg"); }
@@ -112,6 +113,7 @@ img {
   .more-link a {
     text-decoration: none; }
     .more-link a:hover, .more-link a:focus {
+      color: white;
       text-decoration: none; }
 
 .cards {
@@ -200,6 +202,11 @@ img {
       background: rgba(26, 94, 99, 0.95); }
     .card:hover .card-meta, .card:focus .card-meta {
       max-height: 1em; }
+
+#contact ul {
+  text-align: center; }
+  #contact ul li {
+    margin: 10px; }
 
 #main-footer {
   text-align: center;
