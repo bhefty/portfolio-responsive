@@ -73,7 +73,7 @@ img {
   background: #f0f0f0; }
 
 #cover {
-  background: #222 url("../images/macbook-code.jpg") center center no-repeat;
+  background: #222 url("../images/cover-code.jpg") center center no-repeat;
   background-size: cover;
   color: white;
   height: 100%;
@@ -85,7 +85,7 @@ img {
   width: 100%; }
 
 #cover-text {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.75);
   color: white;
   padding: 1.875rem; }
 
@@ -99,14 +99,22 @@ img {
     background-color: #f0f0f0; }
 
 #project-1 {
-  background-image: url("../images/macbook-project-voting.png");
-  background-size: cover; }
+  background-image: url("../images/project-voting.jpeg"); }
 
 #project-2 {
-  background-image: url("../images/programming.jpg"); }
+  background-image: url("../images/project-recipe-box.jpeg"); }
 
 #project-3 {
-  background-image: url("../images/working.jpg"); }
+  background-image: url("../images/project-find-my-rep.jpeg"); }
+
+#project-4 {
+  background-image: url("../images/project-markdown.jpg"); }
+
+#project-5 {
+  background-image: url("../images/project-githuh.jpg"); }
+
+#project-6 {
+  background-image: url("../images/project-simon-says.png"); }
 
 .more-link {
   text-align: center; }
@@ -157,7 +165,7 @@ img {
     padding: 5% 5% 3% 5%; }
   .card .card-header {
     position: relative;
-    height: 175px;
+    height: 200px;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
